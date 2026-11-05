@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imran Nafiz | Graphic Designer</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b0b0f;
+            color: white;
+        }
+
+        header {
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: #a78bfa;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 50px 8%;
+        }
+
+        .hero h1 {
+            font-size: clamp(38px, 8vw, 70px);
+            margin: 15px 0;
+        }
+
+        .hero h1 span {
+            color: #a78bfa;
+        }
+
+        .hero p {
+            color: #b9b9c5;
+            line-height: 1.8;
+            max-width: 500px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 14px 25px;
+            background: #8b5cf6;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            width: fit-content;
+        }
+
+        .services {
+            padding: 50px 8%;
+        }
+
+        .services h2 {
+            font-size: 32px;
+            margin-bottom: 25px;
+        }
+
+        .card {
+            background: #17171f;
+            padding: 25px;
+            margin-bottom: 15px;
+            border: 1px solid #292933;
+            border-radius: 12px;
+        }
+
+        .card h3 {
+            color: #a78bfa;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">IMRAN NAFIZ</div>
+    </header>
+
+    <section class="hero">
+        <p>HELLO, I'M A GRAPHIC DESIGNER</p>
+
+        <h1>Creative Designs<br>
+        <span>That Inspire.</span></h1>
+
+        <p>
+            I create modern and professional designs
+            for brands, businesses and social media.
+        </p>
+
+        <a href="#services" class="btn">Explore My Services</a>
+    </section>
+
+    <section class="services" id="services">
+        <h2>My Services</h2>
+
+        <div class="card">
+            <h3>Logo Design</h3>
+            <p>Creative and memorable brand identities.</p>
+        </div>
+
+        <div class="card">
+            <h3>Social Media Design</h3>
+            <p>Professional posters, banners and ads.</p>
+        </div>
+
+        <div class="card">
+            <h3>Print Design</h3>
+            <p>Business cards, flyers and brochures.</p>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Imran Nafiz | Graphic Designer
+    </footer>
+
+</body>
+</html>
